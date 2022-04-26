@@ -1,8 +1,8 @@
-## esm-require-directory
+# esm-require-directory
 
 Import a directory of modules using @std/esm
 
-**Usage**
+## **Usage**
 
 ```js
 const path = require('path');
@@ -19,7 +19,7 @@ const requireDirectory = require('esm-require-directory');
 })();
 ```
 
-**Options**
+## **Options**
 
 - recursive (boolean) - traverse modules recursively. Default: false.
 - paths (boolean) - modules returned as an object with relative paths vs as an array. Default: false.
@@ -27,5 +27,5 @@ const requireDirectory = require('esm-require-directory');
 - default (boolean) - extract default from es6 modules. Default: true.
 - extensions (array) - the file extension types to process. Default: ['.mjs']
 
-**Credits**
+## **Credits**
 - Based on the [original project](https://github.com/kmalakoff/esm-require-directory) created by [Kevin Malakoff](https://github.com/kmalakoff).
