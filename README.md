@@ -26,3 +26,6 @@ const requireDirectory = require('esm-require-directory');
 - filename (boolean) - only return the filename without the extension. Default: true for paths.
 - default (boolean) - extract default from es6 modules. Default: true.
 - extensions (array) - the file extension types to process. Default: ['.mjs']
+
+**Credits**
+- Based on the [original project](https://github.com/kmalakoff/esm-require-directory) created by [Kevin Malakoff](https://github.com/kmalakoff).
